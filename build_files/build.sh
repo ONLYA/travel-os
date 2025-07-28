@@ -27,7 +27,7 @@ dnf5 -y config-manager addrepo --from-repofile=https://repo.librewolf.net/librew
 dnf5 install -y librewolf
 
 dnf5 -y config-manager addrepo --from-repofile=https://raw.githubusercontent.com/ONLYA/travel-os/refs/heads/main/repofiles/vscodium.repo
-dnf5 install -y vscodium nss
+dnf5 install -y codium nss
 
 #### Example for enabling a System Unit File
 

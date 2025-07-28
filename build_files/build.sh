@@ -26,6 +26,9 @@ dnf5 -y copr disable @freecad/nightly
 dnf5 -y config-manager addrepo --from-repofile=https://repo.librewolf.net/librewolf.repo
 dnf5 install -y librewolf
 
+dnf5 -y config-manager addrepo --from-repofile=https://raw.githubusercontent.com/ONLYA/travel-os/refs/heads/main/repofiles/vscodium.repo
+dnf5 install -y vscodium nss
+
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket

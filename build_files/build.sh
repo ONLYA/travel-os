@@ -29,9 +29,6 @@ dnf5 install -y librewolf
 dnf5 -y config-manager addrepo --from-repofile=https://raw.githubusercontent.com/ONLYA/travel-os/refs/heads/main/repofiles/vscodium.repo
 dnf5 install -y codium nss
 
-dnf5 -y config-manager addrepo --from-repofile=https://repository.mullvad.net/rpm/stable/mullvad.repo
-dnf5 install -y mullvad-vpn mullvad-browser
-
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket

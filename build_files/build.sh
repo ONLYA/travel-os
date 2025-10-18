@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y tmux neovim fd-find ripgrep fcitx5 fcitx5-rime libreoffice zathura # kicad
+dnf5 install -y tmux neovim fd-find ripgrep fcitx5 fcitx5-rime libreoffice zathura git-lfs git-all # kicad
 
 # Use a COPR Example:
 #

@@ -13,6 +13,8 @@ set -ouex pipefail
 dnf5 install -y tmux neovim fd-find ripgrep fcitx5 fcitx5-rime libreoffice zathura git-lfs git-all screen # kicad
 # Hackrf related
 dnf5 install -y hackrf hackrf-doc gqrx gnuradio gnuradio-doc
+# PDF viewer
+dnf5 install -y zathura zathura-cb zathura-djvu zathura-ps zathura-pdf-mupdf
 
 # Use a COPR Example:
 #

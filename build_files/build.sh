@@ -34,5 +34,5 @@ dnf5 -y config-manager addrepo --from-repofile=https://raw.githubusercontent.com
 dnf5 install -y codium nss
 
 #### Example for enabling a System Unit File
-
+# Is this reauired?
 systemctl enable podman.socket
